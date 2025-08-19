@@ -1,5 +1,5 @@
-// Faça uma função chamada table que tem como parâmetro de entrada um número 
-// e devolve a tabuada desse mesmo número do valor 1 a 10. 
+// Faça uma função chamada table que tem como parâmetro de entrada um número
+// e devolve a tabuada desse mesmo número do valor 1 a 10.
 // Um exemplo de saída para a tabuada do 6 seria:
 
 // "The table of 6 is:"
@@ -14,17 +14,17 @@
 // "9 x 6 = 54";
 // "10 x 6 = 60";
 
-
-
-
-function table(number) {
-    console.log("complete com o código aqui! :)");
+function table(number, multiply) {
+  console.log("A tabuada de " + number + " é:");
+  
+for (let num1 = 1; num1 <= multiply; num1++) {
+    console.log(number + " x " + num1 + " = " + (number * num1));
+  }
 }
 
-table(2);
+table(7,30);
 
 // Bônus:
-// Agora coloque mais um parâmetro na função: ao invés da tabuada ir de 1 a 10, 
+// Agora coloque mais um parâmetro na função: ao invés da tabuada ir de 1 a 10,
 // agora ela pode ir de 1 até x.
-
 

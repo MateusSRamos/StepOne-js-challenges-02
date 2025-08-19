@@ -12,11 +12,14 @@
 const exampleString = "I love technology";
 
 function stringToArray(string) {
-    console.log("complete com o código aqui! :)");
+    
+    const convert = string.split(" ")
+    
+    return  convert
+    
 }
 
 stringToArray(exampleString);
-
 
 
 
